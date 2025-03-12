@@ -2,151 +2,189 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>实验报告3：利用云平台搭建个人博客</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陈静雯-云计算实验报告</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            max-width: 1200px;
             margin: 0 auto;
+            padding: 30px;
+            line-height: 1.8;
+            background-color: #f8fafc;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
             padding: 20px;
-            line-height: 1.6;
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            border-radius: 10px;
         }
-        h1, h2 {
-            color: #2c3e50;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
+
+        .underline {
+            text-decoration: underline;
+            text-underline-offset: 4px;
         }
+
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 20px 0;
+            margin: 25px 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         }
+
         th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
+            border: 1px solid #e2e8f0;
+            padding: 15px;
             text-align: left;
         }
+
         th {
-            background-color: #f8f9fa;
+            background-color: #f8fafc;
+            width: 120px;
+            font-weight: 600;
         }
+
+        .steps {
+            counter-reset: step;
+            padding-left: 30px;
+        }
+
+        .step-item {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .step-item::before {
+            counter-increment: step;
+            content: counter(step) ".";
+            font-weight: bold;
+            margin-right: 15px;
+            color: #3498db;
+        }
+
         img {
-            max-width: 100%;
+            max-width: 80%;
             height: auto;
-            margin: 10px 0;
-            border: 1px solid #ddd;
-            padding: 5px;
+            margin: 20px auto;
+            display: block;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
         }
-        .underline {
-            text-decoration: underline;
+
+        .back-btn {
+            display: block;
+            width: 200px;
+            margin: 40px auto;
+            padding: 12px;
+            text-align: center;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: all 0.3s;
+        }
+
+        .back-btn:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
         }
     </style>
 </head>
 <body>
-    <h1>山东大学 <span class="underline">计算机科学与技术</span> 学院</h1>
-    <h2><span class="underline">云计算技术</span> 课程实验报告</h2>
+    <div class="header">
+        <h1>山东大学 <span class="underline">计算机科学与技术</span> 学院</h1>
+        <h2><span class="underline">云计算技术</span> 课程实验报告</h2>
+    </div>
 
-    <!-- 学生信息表格 -->
+    <!-- 学生信息表 -->
     <table>
         <tr>
             <th>学号</th>
-            <td>（填写你的学号）</td>
+            <td>202200130048</td>
             <th>姓名</th>
-            <td>（填写你的姓名）</td>
+            <td>陈静雯</td>
             <th>班级</th>
-            <td>（填写班级）</td>
+            <td>计科22.6</td>
         </tr>
     </table>
 
     <!-- 实验基本信息 -->
     <table>
         <tr>
-            <th width="20%">实验题目</th>
-            <td colspan="5">利用云平台搭建个人博客</td>
+            <th>实验题目</th>
+            <td colspan="3">利用云平台搭建个人博客</td>
         </tr>
         <tr>
             <th>实验学时</th>
             <td>2</td>
             <th>实验日期</th>
-            <td colspan="3">（填写日期）</td>
+            <td>2025.3.12</td>
         </tr>
     </table>
 
     <!-- 实验目的 -->
-    <h2>实验目的</h2>
-    <p>本实验旨在通过实践操作，掌握基于云计算环境的网站部署技能。</p>
-    <p>具体包括：</p>
+    <h2>📚 实验目的</h2>
+    <p>通过实践操作掌握基于云计算环境的网站部署技能，具体包括：</p>
     <ul>
-        <li>构建环境并实现个人博客/网站的搭建</li>
-        <li>撰写实验报告</li>
-        <li>将报告作为博文发布在自己的博客/网站上</li>
+        <li>构建云计算环境并实现个人博客搭建</li>
+        <li>撰写规范的实验报告</li>
+        <li>将报告转化为网页博文并发布</li>
     </ul>
 
     <!-- 实验环境 -->
-    <h2>实验环境</h2>
+    <h2>🖥️ 实验环境</h2>
     <table>
         <tr>
-            <th width="30%">硬件环境</th>
+            <th>硬件环境</th>
             <td>联网的计算机一台</td>
         </tr>
         <tr>
             <th>软件环境</th>
-            <td>Windows 或 Linux 操作系统</td>
+            <td>Windows/Linux 操作系统</td>
         </tr>
     </table>
 
     <!-- 实验步骤 -->
-    <h2>实验步骤与内容</h2>
-    <ol>
-        <li>
-            在GitHub创建仓库：
-            <ul>
-                <li>仓库命名规则：<code>用户名.github.io</code></li>
-                <li>示例仓库结构：
-                    <pre>
-your-repo/
-├── index.html
-├── media/
-│   └── image1.png
-└── files/
-                    </pre>
-                </li>
-            </ul>
-            <img src="media/image1.png" alt="GitHub仓库创建示例">
-        </li>
-        <li>
-            编写HTML文件：
-            <ul>
-                <li>创建<code>index.html</code>作为网站入口</li>
-                <li>添加博客文章页面（如本报告）</li>
-                <li>示例代码结构：
-                    <pre>
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-    &lt;title&gt;我的博客&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;h1&gt;欢迎访问！&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-                    </pre>
-                </li>
-            </ul>
-        </li>
-    </ol>
+    <h2>🔧 实验步骤与内容</h2>
+    <div class="steps">
+        <div class="step-item">
+            <h3>GitHub仓库创建</h3>
+            <p>创建与用户名相同的仓库，后缀为.github.io</p>
+            <img src="media/image1.png" alt="仓库创建界面">
+        </div>
+
+        <div class="step-item">
+            <h3>HTML文件编写</h3>
+            <p>（1）创建主页index.html</p>
+            <img src="media/image2.png" alt="主页代码">
+            <img src="media/image3.png" alt="代码编辑器界面">
+            
+            <p>（2）实现跳转功能</p>
+            <img src="media/image4.png" alt="页面跳转效果">
+        </div>
+
+        <div class="step-item">
+            <h3>实验报告网页化</h3>
+            <p>将报告转换为HTML页面并设置返回链接</p>
+            <img src="media/image5.png" alt="网页效果展示">
+        </div>
+    </div>
 
     <!-- 结论分析 -->
-    <h2>结论分析与体会</h2>
-    <p>（在此处填写你的实验心得，至少包含以下要点）</p>
+    <h2>💡 结论分析与体会</h2>
     <ul>
-        <li>云计算环境部署的优势与挑战</li>
-        <li>GitHub Pages的静态网站托管体验</li>
-        <li>HTML/CSS在实际项目中的应用体会</li>
+        <li>掌握了GitHub Pages网站搭建流程</li>
+        <li>实现了静态页面的个性化设计</li>
+        <li>完成了实验报告的网页化转换</li>
     </ul>
 
-    <!-- 返回链接 -->
-    <div style="margin-top: 40px; text-align: center;">
-        <a href="index.html">返回博客首页</a>
-    </div>
+    <a href="index.html" class="back-btn">🏠 返回博客首页</a>
 </body>
 </html>
