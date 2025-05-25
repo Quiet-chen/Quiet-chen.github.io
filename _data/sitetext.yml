@@ -73,21 +73,6 @@ en: &DEFAULT_EN
         desc: "梦想中的集体活动，没有什么乱七八糟的烦恼，作为一个小替补，公费吃吃喝喝，虽然那破旅馆的菜非常难吃，第一次见到一大盆不知道什么虫，太可怕了。"
         image: assets/img/timeline/yt.jpg
         alt:
-      # - title: "An Agency is Born"
-      #   year: "March 2011"
-      #   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-      #   image: assets/img/timeline/2.jpg
-      #   alt:
-      # - title: "Jekyll Theme is created"
-      #   year: "2019"
-      #   desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-      #   image: assets/img/timeline/3.jpg
-      #   alt: image alt text
-      # - title: "Title"
-      #   year: "2009-2011"
-      #   desc: "Your description here, **Markdown** is fully supported."
-      #   image: assets/img/timeline/4.jpg
-      #   alt:
         # you can enforce the alignment
         # align: right
     end: "谨以此见证漫长岁月里所有永恒和不朽."
@@ -95,10 +80,10 @@ en: &DEFAULT_EN
   about:
     title: "Me"
     text: "橙子"
-    body: "超级i人，iiisfj，但是喜欢热闹。
+    body: "超级i人，ii**isfj**，但是喜欢热闹。
     <br />超爱的作者--**木苏里、巫哲、淮上、priest**...
-    <br />目前学计算机，很痛苦，掉头发的专业。
-    <br />梦想有一家自己的书咖，加盟西西弗!
+    <br />目前学**计算机**，很痛苦，掉头发的专业。
+    <br />梦想有一家自己的**书咖**，加盟西西弗!
     "
     section: about
 
@@ -159,18 +144,18 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Me"
-    text: "send a message or add me on Wechat veISlo"
-    section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+    text: "send a message to Quiet-Chen@outlook.com"
+    # section: contact
+    # name: "Name*"
+    # name-validation: "Please enter your name."
+    # email: "Email*"
+    # email-validation: "Please enter your email address."
+    # phone: "Phone Number"
+    # phone-validation: "Please enter your phone number."
+    # message: "Message*"
+    # message-validation: "Please enter a message."
+    # subject: "Contact Form Submission"
+    # submit: "Send Message"
 
   footer:
     legal: "Privacy Policy"
