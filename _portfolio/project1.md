@@ -1,7 +1,7 @@
 ---
 title: 《某某》
 subtitle: 他们分离的七年是永远的意难平
-image: "../img/portfolio/moumou.jpg"
+image: "assets/img/portfolio/moumou.jpg"
 alt: Shirts on a hanger
 
 caption:
