@@ -1,7 +1,7 @@
 ---
-title: Project Threads
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-full.jpg
+title: 《某某》
+subtitle: 他们分离的七年是永远的意难平
+image: "../img/portfolio/moumou.jpg"
 alt: Shirts on a hanger
 
 caption:
@@ -10,10 +10,15 @@ caption:
   thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-thumbnail.jpg
 ---
 
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-
+第一次看的时候真的以泪洗面，停都停不下来。 
+从盛明阳抓着盛望到他妈妈墓前，到江添一再错过、跑遍所有地方都找不到他的望仔。 好像他只是上台致了辞，一切都面目全非了。 一边是病倒的江鸥和爷爷，另一边是一贯强势的盛明阳，他们拉扯着人间的牵绊与负重，最终抛下了自己。 只是一句看似平常的“晚点再说”，一晚就晚了七年，他们再没好好的说过一句话了。所有的喜怒哀乐都停留在十八岁，戛然而止。
+所以说，真的不要错过不要保留，不要让自己留有遗憾和后悔，对所有事。 
+很喜欢很喜欢添哥望仔曦哥林哥，A班的大家，附中包括后来的同事张朝（除了某个不属于人的，不点名了，烦），也特别想看曦哥和林哥单独的故事。 每个人都是小天使呜呜呜呜呜，说是了很多遍其实除了第一遍一直没敢看完，因为艺术节之后一直很慌，很压抑，后面的刀是一下接着一下，真..十米长。 
+之前那会还出了广播剧，每天晚上用mp3循环，前半部分真的很欢乐，后半部分听一次就要大哭一次。我添哥在国外过的那么辛苦，唯一的念想就是手机里那几段视频和照片了。感觉自己不会再快乐了。 其实现在同性恋已经很大众化了，每个人听到都是觉得很平常，反而是一惊一乍的占少数，但是也仅限于这一代，就像书里的同学，不管是大学同学还是曾经A班的人，但是家长依然很在意（大部分），或许再过十年就真的能够恋爱自由了吧，到时候婚姻法能真正保护所有爱情（而不是只有意定监护）。 
+最后的最后，希望天下有情人终成眷属。每个人都能够爱与被爱。
+晚安，玛卡巴卡。
 {:.list-inline}
 
-- Date: January 2017
+- Date: May 2025
 - Client: Threads
 - Category: Illustration

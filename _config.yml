@@ -16,9 +16,9 @@
 url    : "https://quiet-chen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : NGC 2237
+title      : NGC 2237.
 email      : jwchen_sdu@126.com #this is also the email contact forms will go to
-description: "满怀希望就会所向披靡"
+description: "所爱隔山海,山海皆可平."
 author     : Orange
 # logo: # optional   #optional, defaults to site title
 # path: assets\img\clients\logo.jpg
