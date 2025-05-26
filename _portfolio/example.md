@@ -5,7 +5,7 @@ caption: #what displays in the portfolio grid:
   thumbnail: assets/img/portfolio/moumou1.jpg
   
 #what displays when the item is clicked:
-title: 十七岁的少年总是发着光的
+title: 十六七岁的少年总是发着光的
 subtitle: 记《某某》
 image: assets/img/portfolio/moumou.jpg #main image, can be a link or a file in assets/img/portfolio
 alt: "某某"
