@@ -5,14 +5,14 @@ caption: #what displays in the portfolio grid:
   thumbnail: assets/img/portfolio/saye.jpg
   
 #what displays when the item is clicked:
-title: 向上还是向下都只有自己
+title: 左肩有你，右肩微笑
 #subtitle: 
 image: assets/img/portfolio/saye.jpg #main image, can be a link or a file in assets/img/portfolio
 alt: "撒野"
 
 ---
 
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+可能以后会写点东西。
 
 {:.list-inline}
 

@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: 橙子de秘密星云
-    text: 送你一朵永远不会枯萎的玫瑰
+    text: 送你一朵永不枯萎的玫瑰
     button: explore
     buttonlink: "#portfolio"
 
@@ -70,7 +70,7 @@ en: &DEFAULT_EN
         alt:
       - title: "山东·烟台"
         year: "2024 October"
-        desc: "梦想中的集体活动，没有什么乱七八糟的烦恼，作为一个小替补，公费吃吃喝喝，虽然那破旅馆的菜非常难吃，第一次见到一大盆不知道什么虫，太可怕了。"
+        desc: "梦想中的集体活动，没有什么乱七八糟的烦恼，作为一个小替补，公费吃吃喝喝，虽然那破旅馆的菜非常难吃，第一次在现实里见到炸虫子，太可怕了。"
         image: assets/img/timeline/yt.jpg
         alt:
         # you can enforce the alignment
